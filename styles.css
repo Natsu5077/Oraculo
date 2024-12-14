@@ -12,6 +12,8 @@ body {
     background-image: url("tecido.jpg");
     background-size: cover; /* Cobrir toda a página */
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .overlay {
     background-color: rgba(228, 205, 133, 0.8);
