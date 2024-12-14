@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Oracul Decorative Regular';
-    src: url('OraculDecorativeRegular.otf') format('opentype');
+    src: url('fontes/OraculDecorativeRegular.otf') format('opentype');
 }
 @font-face {
     font-family: 'Montserrat Medium';
-    src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
+    src: url('fontes/Montserrat-VariableFont_wght.ttf') format('opentype');
 }
 body {
     margin: 0; /* Remove margens padrão */
     background-color: #E4CD85;
-    background-image: url("tecido.jpg");
+    background-image: url("img/tecido.jpg");
     background-size: cover; /* Cobrir toda a página */
     background-attachment: fixed;
 }
@@ -17,7 +17,6 @@ body {
     background-color: rgba(228, 205, 133, 0.8);
     padding: 0;
     min-height: 100vh; /* Ajusta para ocupar a altura total da tela */
-    min-width: 100vh;
 }
 .banner {
     width: 50%;
@@ -40,7 +39,6 @@ body {
 .decorative-border {
     position: relative;
     border: 1px solid #4E025D;
-    paddding: 50px;
 }
 .decorative-border::before,
 .decorative-border::after {
@@ -77,4 +75,30 @@ td {
 }
 .td-2 {
     padding: 0%;
+}
+
+/* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .banner {
+        width: 100%;
+    }
+    .titulo {
+        font-size: 50px;
+    }
+    .sub-titulo {
+        font-size: 50px;
+    }
+    .texto {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    table {
+        width: 100%;
+    }
+    td {
+        padding: 5px;
+    }
+    .td-2 {
+        text-align: center;
+    }
 }
