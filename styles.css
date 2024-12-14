@@ -76,3 +76,10 @@ td {
 .td-2 {
     padding: 0%;
 }
+@media only screen and (max-width: 768px) 
+{ .banner { width: 100%; }
+ .titulo { font-size: 50px; } 
+ .sub-titulo { font-size: 50px; } 
+ .texto { font-size: 20px; padding: 0 10px; } 
+ table { width: 100%; } td { padding: 5px; } 
+ .td-2 { text-align: center; } }
