@@ -14,6 +14,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
 }
 .overlay {
     background-color: rgba(228, 205, 133, 0.8);
