@@ -17,6 +17,7 @@ body {
     background-color: rgba(228, 205, 133, 0.8);
     padding: 0;
     min-height: 100vh; /* Ajusta para ocupar a altura total da tela */
+    min-width: 100vh;
 }
 .banner {
     width: 50%;
