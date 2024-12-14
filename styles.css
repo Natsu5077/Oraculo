@@ -39,6 +39,7 @@ body {
 .decorative-border {
     position: relative;
     border: 1px solid #4E025D;
+    paddding: 50px;
 }
 .decorative-border::before,
 .decorative-border::after {
