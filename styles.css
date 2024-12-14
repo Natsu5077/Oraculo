@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Oracul Decorative Regular';
-    src: url('fontes/OraculDecorativeRegular.otf') format('opentype');
+    src: url('OraculDecorativeRegular.otf') format('opentype');
 }
 @font-face {
     font-family: 'Montserrat Medium';
-    src: url('fontes/Montserrat-VariableFont_wght.ttf') format('opentype');
+    src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
 }
 body {
     margin: 0; /* Remove margens padrão */
     background-color: #E4CD85;
-    background-image: url("img/tecido.jpg");
+    background-image: url("tecido.jpg");
     background-size: cover; /* Cobrir toda a página */
     background-attachment: fixed;
 }
