@@ -15,6 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh; /* Cobrir toda a altura da tela */
+    min-width: 100vw;
 }
 
 .overlay {
