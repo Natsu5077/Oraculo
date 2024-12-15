@@ -7,6 +7,7 @@
     src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
 }
 body {
+    @media only screen and (max-width: 768px) 
     margin: 0; /* Remove margens padrão */
     background-color: #E4CD85;
     background-image: url("tecido.jpg");
@@ -81,7 +82,7 @@ td {
 .td-2 {
     padding: 0%;
 }
-@media only screen and (max-width: 768px) 
+
 { .banner { width: 100%; }
  .titulo { font-size: 50px; } 
  .sub-titulo { font-size: 50px; } 
