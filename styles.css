@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh; /* Cobrir toda a altura da tela */
     min-width: 100vw;
+    background-blend-mode: overlay;
 }
 
 .overlay {
